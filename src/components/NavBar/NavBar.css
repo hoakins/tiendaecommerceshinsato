@@ -1,0 +1,10 @@
+.App-logo1 {
+    height: 10vmin;
+    pointer-events: none;
+    align-items: flex-end;
+}
+
+.Menu {
+    display: inline-block;
+    text-decoration: none;
+}
