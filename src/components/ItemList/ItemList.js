@@ -1,4 +1,4 @@
-import Item from '..\Item\Item'
+import Item from '../Item/Item'
 
 const ItemList = ({products}) => {
 
@@ -8,6 +8,6 @@ const ItemList = ({products}) => {
         </ul>
     )
 
-}
+}   
 
 export default ItemList

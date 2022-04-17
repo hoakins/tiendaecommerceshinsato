@@ -1,13 +1,13 @@
 import './ItemListContainer.css'
 import { useState, useEffect } from 'react'
-import { getproducts } from '../asyncmock'
-
+import { getProducts } from '../asyncmock'
+import ItemList from '../ItemList/ItemList'
 
 const ItemListContainer = (props) => {
         const [products, setProducts] = useState([])
     
         useEffect(() => {
-            getproducts().then(prods => {
+            getProducts().then(prods => {
                     setProducts(prods)
             }).catch(error => {
                 console.log(error)

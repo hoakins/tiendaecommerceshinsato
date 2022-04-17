@@ -4,7 +4,7 @@ const products = [
     { id: 3, name: 'samsung s21', price: 3000, category: 'celular', img:'https://samsungar.vtexassets.com/arquivos/ids/177914/Samsung-97798753-ar-galaxy-s21-fe-g990-sm-g990elgaarm-530627001Download-Source.png?v=637788851897970000', stock: 10, description:'Samsung s21' },
 ]
 
-function getProducts() {
+export function getProducts() {
     return new Promise(resolve => {
         setTimeout(() => {
             resolve(products)
