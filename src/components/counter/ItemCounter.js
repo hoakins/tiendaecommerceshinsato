@@ -24,7 +24,7 @@ return(
          <button onClick={decrement}>-</button>
          <p>{count}</p>
          <button onClick={increment}>+</button>
-         <button onClick={() => onAdd(count)}>Agregar al carrito</button>
+         {/* <button onClick={() => onAdd(count)}>Agregar al carrito</button> */}
     </div>
 )
 }
